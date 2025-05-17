@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>هل انت متأكد</value>
+  </data>
+  <data name="ConfirmPasswordMismatch" xml:space="preserve">
+    <value>كلمتا المرور غير متطابقتين.</value>
+  </data>
+  <data name="CountryRequired" xml:space="preserve">
+    <value>الدولة مطلوبة</value>
+  </data>
+  <data name="DeleteFailedMessage" xml:space="preserve">
+    <value>حدث خطأ أثناء الحذف. الرجاء المحاولة مرة أخرى.</value>
+  </data>
+  <data name="DeleteFailedTitle" xml:space="preserve">
+    <value>فشل الحذف</value>
+  </data>
+  <data name="DeleteSuccessMessage" xml:space="preserve">
+    <value>تم الحذف بنجاح.</value>
+  </data>
+  <data name="DeleteSuccessTitle" xml:space="preserve">
+    <value>نجاح الحذف</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>البريد الإلكتروني غير صالح.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>البريد الإلكتروني مطلوب.</value>
+  </data>
+  <data name="FirstNameLength" xml:space="preserve">
+    <value>يجب ألا يزيد الاسم الأول عن 50 حرفًا.</value>
+  </data>
+  <data name="FirstNameRequired" xml:space="preserve">
+    <value>الاسم الأول مطلوب.</value>
+  </data>
+  <data name="LastNameLength" xml:space="preserve">
+    <value>يجب ألا يزيد اسم العائلة عن 50 حرفًا.</value>
+  </data>
+  <data name="LastNameRequired" xml:space="preserve">
+    <value>اسم العائلة مطلوب.</value>
+  </data>
+  <data name="Message_AccountDeactivated" xml:space="preserve">
+    <value>تم تعطيل حسابك. الرجاء الاتصال بالإدارة.</value>
+  </data>
+  <data name="Message_AccountReactivated" xml:space="preserve">
+    <value>تم إعادة تفعيل حسابك.</value>
+  </data>
+  <data name="Message_AutoLogout" xml:space="preserve">
+    <value>تم تسجيل الخروج تلقائيًا بسبب عدم النشاط.</value>
+  </data>
+  <data name="Message_ChangesSaved" xml:space="preserve">
+    <value>تم حفظ التغييرات بنجاح.</value>
+  </data>
+  <data name="Message_ConnectionLost" xml:space="preserve">
+    <value>الاتصال مفقود. جاري إعادة الاتصال...</value>
+  </data>
+  <data name="Message_DeleteFailed" xml:space="preserve">
+    <value>فشل في حذف العنصر. الرجاء المحاولة مرة أخرى.</value>
+  </data>
+  <data name="Message_DuplicateEntry" xml:space="preserve">
+    <value>تم اكتشاف إدخال مكرر.</value>
+  </data>
+  <data name="Message_FieldRequired" xml:space="preserve">
+    <value>هذا الحقل مطلوب.</value>
+  </data>
+  <data name="Message_FormIncomplete" xml:space="preserve">
+    <value>النموذج غير مكتمل. الرجاء تعبئة جميع الحقول المطلوبة.</value>
+  </data>
+  <data name="Message_InvalidEmail" xml:space="preserve">
+    <value>الرجاء إدخال بريد إلكتروني صالح.</value>
+  </data>
+  <data name="Message_InvalidNumber" xml:space="preserve">
+    <value>الرجاء إدخال رقم صالح.</value>
+  </data>
+  <data name="Message_ItemAlreadyExists" xml:space="preserve">
+    <value>هذا العنصر موجود بالفعل.</value>
+  </data>
+  <data name="Message_ItemLocked" xml:space="preserve">
+    <value>هذا العنصر مغلق ولا يمكن تعديله.</value>
+  </data>
+  <data name="Message_LogoutConfirmation" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد تسجيل الخروج؟</value>
+  </data>
+  <data name="Message_LogoutSuccess" xml:space="preserve">
+    <value>تم تسجيل الخروج بنجاح.</value>
+  </data>
+  <data name="Message_MaxLengthValidation" xml:space="preserve">
+    <value>يجب ألا يتجاوز الإدخال {100} حرفًا.</value>
+  </data>
+  <data name="Message_NoChanges" xml:space="preserve">
+    <value>لم يتم اكتشاف تغييرات.</value>
+  </data>
+  <data name="Message_OperationFailed" xml:space="preserve">
+    <value>فشلت العملية. الرجاء الاتصال بالدعم الفني.</value>
+  </data>
+  <data name="Message_OutOfRangeValidation" xml:space="preserve">
+    <value>يجب أن تكون القيمة بين {0} و {1}.</value>
+  </data>
+  <data name="Message_PasswordChanged" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجاح.</value>
+  </data>
+  <data name="Message_PasswordMismatch" xml:space="preserve">
+    <value>كلمات المرور غير متطابقة.</value>
+  </data>
+  <data name="Message_PermissionRequired" xml:space="preserve">
+    <value>يتطلب هذا الإجراء صلاحيات إضافية.</value>
+  </data>
+  <data name="Message_RecordArchived" xml:space="preserve">
+    <value>تم أرشفة السجل.</value>
+  </data>
+  <data name="Message_RecordLocked" xml:space="preserve">
+    <value>هذا السجل مغلق حاليًا للتعديل.</value>
+  </data>
+  <data name="Message_RecordNotEditable" xml:space="preserve">
+    <value>لا يمكن تعديل هذا السجل.</value>
+  </data>
+  <data name="Message_RecordRestored" xml:space="preserve">
+    <value>تم استعادة السجل.</value>
+  </data>
+  <data name="Message_Retry" xml:space="preserve">
+    <value>فشلت العملية. الرجاء المحاولة مرة أخرى.</value>
+  </data>
+  <data name="Message_ServerBusy" xml:space="preserve">
+    <value>الخادم مشغول حاليًا. الرجاء المحاولة لاحقًا.</value>
+  </data>
+  <data name="Message_UploadInProgress" xml:space="preserve">
+    <value>جاري رفع الملف. الرجاء الانتظار.</value>
+  </data>
+  <data name="Message_UploadSizeLimitExceeded" xml:space="preserve">
+    <value>حجم الملف يتجاوز الحد المسموح به.</value>
+  </data>
+  <data name="Message_Welcome" xml:space="preserve">
+    <value>أهلاً بك في لوحة التحكم.</value>
+  </data>
+  <data name="MinLengthValidation" xml:space="preserve">
+    <value>يجب أن يكون الإدخال على الأقل {5} حرفًا.</value>
+  </data>
+  <data name="NameArRequired" xml:space="preserve">
+    <value>من فضلك ادخل الاسم عربي </value>
+  </data>
+  <data name="NameEnRequired" xml:space="preserve">
+    <value>من فضلك ادخل الاسم انجليزي</value>
+  </data>
+  <data name="NameOnlyArRequired" xml:space="preserve">
+    <value>من فضلك ادخل الاسم </value>
+  </data>
+  <data name="PasswordMinLength" xml:space="preserve">
+    <value>يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>كلمة المرور مطلوبة.</value>
+  </data>
+  <data name="PhoneInvalid" xml:space="preserve">
+    <value>رقم الهاتف غير صالح.</value>
+  </data>
+  <data name="PhoneRequired" xml:space="preserve">
+    <value>رقم الهاتف مطلوب.</value>
+  </data>
+  <data name="SaveFailedMessage" xml:space="preserve">
+    <value>حدث خطأ أثناء الحفظ. الرجاء المحاولة مرة أخرى.</value>
+  </data>
+  <data name="SaveFailedTitle" xml:space="preserve">
+    <value>فشل الحفظ.</value>
+  </data>
+  <data name="SaveSuccessMessage" xml:space="preserve">
+    <value>تم الحفظ بنجاح. </value>
+  </data>
+  <data name="SaveSuccessTitle" xml:space="preserve">
+    <value>نجاح الحفظ</value>
+  </data>
+</root>
